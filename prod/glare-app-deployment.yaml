@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: glare_app
+  name: glare-app
 spec:
   replicas: 1
   revisionHistoryLimit: 3
   selector:
     matchLabels:
-      app: glare_app
+      app: glare-app
   template:
     metadata:
       labels:
-        app: glare_app
+        app: glare-app
     spec:
       containers:
       - image: luminoussg/my-app:v1
-        name: glare_app
+        name: glare-app
         ports:
         - containerPort: 8080
           name: web
