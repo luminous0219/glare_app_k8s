@@ -24,4 +24,4 @@ spec:
   selector:
     app: glare-app
   type: LoadBalancer
-  loadBalancerIP: 192.168.31.197
+  loadBalancerIP: 192.168.31.198
