@@ -6,8 +6,7 @@ metadata:
 spec:
   ports:
   - port: 7861
-    targetPort: 7861
-    nodePort: 7861
+    targetPort: 8080
     protocol: TCP
     name: web
   - port: 1935
